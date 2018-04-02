@@ -9,7 +9,8 @@ ips.py is to add a given number of iptables rules to the INPUT chain.
 
 ### server's connection acceptance rate
 
-#### average from three runs without iptables rule ~207075
-#### average from three runs with 15000 rules in INPUT chain ~52700
+ ```average from three runs without iptables rule ~207075```
+ 
+ ```average from three runs with 15000 rules in INPUT chain ~52700```
 
 client & server were in separate EC2 t2.medium instances, running Ubuntu 16.04
